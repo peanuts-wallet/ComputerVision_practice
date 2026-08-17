@@ -1,0 +1,13 @@
+# Persistent person tracking tuned for moving cameras and short occlusions.
+tracker_type: botsort
+track_high_thresh: 0.15
+track_low_thresh: 0.02
+new_track_thresh: 0.15
+track_buffer: 180
+match_thresh: 0.92
+fuse_score: true
+gmc_method: sparseOptFlow
+proximity_thresh: 0.05
+appearance_thresh: 0.72
+with_reid: true
+model: ../models/yolo26n-cls.pt
