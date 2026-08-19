@@ -1,0 +1,30 @@
+{
+  "frame_width": 1920,
+  "frame_height": 1080,
+  "assignment_point": "bbox_bottom_center",
+  "depth_boundary": [
+    [0.00, 0.18],
+    [1.00, 0.55]
+  ],
+  "left_boundary": [
+    [0.77, 0.0],
+    [0.00, 0.86]
+  ],
+  "right_boundary": [
+    [0.96, 0.0],
+    [0.41, 1.0]
+  ],
+  "zones": [
+    {"id": 0, "name": "far_left", "color_bgr": [80, 210, 90]},
+    {"id": 1, "name": "far_center", "color_bgr": [255, 180, 50]},
+    {"id": 2, "name": "far_right", "color_bgr": [80, 90, 255]},
+    {"id": 3, "name": "near_left", "color_bgr": [60, 230, 230]},
+    {"id": 4, "name": "near_center", "color_bgr": [220, 80, 200]},
+    {"id": 5, "name": "near_right", "color_bgr": [230, 170, 80]}
+  ],
+  "graph_edges": [
+    [0, 1], [1, 2],
+    [3, 4], [4, 5],
+    [0, 3], [1, 4], [2, 5]
+  ]
+}
