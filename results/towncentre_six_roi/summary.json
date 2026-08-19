@@ -1,0 +1,43 @@
+{
+  "video_duration_s": 300.04,
+  "video_frames": 7502,
+  "video_fps": 25.00333288894814,
+  "tracking_snapshots": 300,
+  "tracking_rows": 6468,
+  "unique_track_ids": 429,
+  "zone_count": 6,
+  "zone_names": [
+    "far_left",
+    "far_center",
+    "far_right",
+    "near_left",
+    "near_center",
+    "near_right"
+  ],
+  "train_end_second": 179.0,
+  "validation_end_second": 239.0,
+  "test_start_second": 240.0,
+  "test_end_second": 299.0,
+  "selected_window": 8,
+  "selected_hidden_size": 32,
+  "selected_seed": 17,
+  "selected_epoch": 15,
+  "count_scale": 11.0,
+  "test_metrics": {
+    "samples": 360,
+    "mae": 0.6738351583480835,
+    "rmse": 0.9566001892089844,
+    "rounded_mae": 0.605555534362793,
+    "exact_accuracy": 0.5305555555555556,
+    "within_one_accuracy": 0.8888888888888888,
+    "persistence_mae": 0.75,
+    "projection_mae": 0.605555534362793,
+    "persistence_exact_accuracy": 0.4527777777777778,
+    "persistence_within_one_accuracy": 0.8361111111111111,
+    "projection_exact_accuracy": 0.5305555555555556,
+    "projection_within_one_accuracy": 0.8888888888888888,
+    "total_count_mae": 1.4456665515899658,
+    "persistence_total_count_mae": 1.399999976158142,
+    "projection_total_count_mae": 1.399999976158142
+  }
+}

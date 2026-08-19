@@ -1,0 +1,23 @@
+{
+  "video_fps": 25.00333288894814,
+  "video_width": 1920,
+  "video_height": 1080,
+  "video_frames": 7502,
+  "valid_top_rows": 47746,
+  "malformed_top_rows": 1,
+  "invalid_body_rows": 0,
+  "unique_people": 157,
+  "sample_interval_s": 1.0,
+  "sample_step_frames": 25,
+  "annotation_fps": 25.0,
+  "snapshots": 124,
+  "rows": 1924,
+  "maximum_annotated_frame": 3089,
+  "maximum_annotated_second": 123.56,
+  "aligned_source_times": 123,
+  "train_times": 74,
+  "validation_times": 24,
+  "test_times": 25,
+  "count_scale": 14.0,
+  "tracker_current_count_mae": 1.184
+}

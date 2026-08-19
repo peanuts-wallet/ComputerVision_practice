@@ -1,0 +1,27 @@
+{
+  "frame_width": 1920,
+  "frame_height": 1080,
+  "assignment_point": "bbox_bottom_center",
+  "left_boundary": [
+    [0.66, 0.0],
+    [0.50, 0.20],
+    [0.34, 0.42],
+    [0.18, 0.65],
+    [0.0, 0.88],
+    [0.0, 1.0]
+  ],
+  "right_boundary": [
+    [0.865, 0.0],
+    [0.79, 0.20],
+    [0.705, 0.40],
+    [0.63, 0.60],
+    [0.55, 0.80],
+    [0.47, 1.0]
+  ],
+  "zones": [
+    {"id": 0, "name": "left_sidewalk", "color_bgr": [80, 210, 90]},
+    {"id": 1, "name": "center_walkway", "color_bgr": [255, 180, 50]},
+    {"id": 2, "name": "right_sidewalk", "color_bgr": [80, 90, 255]}
+  ],
+  "graph_edges": [[0, 1], [1, 2]]
+}
