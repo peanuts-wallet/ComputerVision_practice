@@ -1,3 +1,6 @@
 .DS_Store
 __pycache__/
 *.py[cod]
+
+# Town Centre 실험에서 재생성되는 대용량 결과 영상
+results/towncentre_*/*.mp4
